@@ -1,5 +1,5 @@
 <h1 align="center">Modern Blog Page</h1>
-<p>This proyekt is built using React, one of the modern web development technologies. This page has been carefully designed to impress users and present information.
+<p>This project is built using React, one of the modern web development technologies. This page has been carefully designed to impress users and present information.
 
 Cards on the page are elements that allow users to quickly access interesting and visually rich content. Each card represents a blog post with a headline, image, summary, and more. In this way, it is intended that visitors quickly understand what topics they can find content about.
 
@@ -30,7 +30,8 @@ Also, the page has a responsive design. This allows users to view the page comfo
 <p>Open your code editor (such as VS Code) and navigate to the project directory. Then, open a terminal and run the following command:
 pnpm run dev</p>
 <p>This will start the application. Open a web browser and navigate to http://localhost:300 to access the website.</p>
-   ```bash
+
+```bash
 npm start
 ```     
 <hr />
