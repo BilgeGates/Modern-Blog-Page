@@ -9,6 +9,7 @@ One of the most remarkable features of the page is the change mode feature. This
 
 Also, the page has a responsive design. This allows users to view the page comfortably on different devices. The design automatically adapts to screen sizes and ensures content is placed neatly.</p>
 <hr />
+<img src="./public/project.jpg" />
 <hr />
 <h2>🍿 Features </h2>
 <ul>   
