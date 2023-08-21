@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #4b6bfb;
+  --color-primary-variant: #6f88f8;
+  --color-secondary: #e8e8ea;
+  --color-site: #3b3c4a;
+  --color-site-variant: #a1a1aa;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-variant);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin-inline: auto;
+}
+
+section > h3 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+section {
+  margin-top: 6rem;
+}
+
+a {
+  color: var(--black-clr);
+  transition: var(--transition);
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid var(--color-site-variant);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: var(--color-primary);
+  background: var(--color-white);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-primary {
+  display: inline-block;
+  color: var(--color-white);
+  background: var(--color-primary);
+  transition: var(--transition);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 0.9rem 2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-primary:hover {
+  color: var(--color-primary);
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section {
+    margin-top: 5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}
