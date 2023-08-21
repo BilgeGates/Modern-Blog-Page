@@ -1,0 +1,31 @@
+.blog__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 6rem;
+}
+
+.blog__container h2 {
+  color: var(--seventh-clr);
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+.blog__container .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.blog__container .blog__link {
+  padding: 0 1rem 0 0;
+  border-right: 1px solid var(--color-site-variant);
+}
+
+.blog__container .blog__link:last-child {
+  border: none;
+}

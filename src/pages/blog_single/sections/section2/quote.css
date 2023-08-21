@@ -1,0 +1,6 @@
+.quote__container {
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 0.7rem;
+  background: var(--color-secondary);
+}
