@@ -79,27 +79,6 @@ nav button {
   cursor: pointer;
 }
 
-.nav__menu li input[type="range"] {
-  display: inline-block;
-  -webkit-appearance: none;
-  appearance: none;
-  width: 3rem;
-  height: 1.75rem;
-  border-radius: 6.25rem;
-  background-color: var(--color-site-variant);
-  padding: 0 0.3rem;
-}
-
-.nav__menu input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 1.4rem;
-  height: 1.4rem;
-  border-radius: 50%;
-  background: var(--color-white);
-  cursor: pointer;
-}
-
 @media screen and (max-width: 1024px) {
   nav button {
     display: inline-block;

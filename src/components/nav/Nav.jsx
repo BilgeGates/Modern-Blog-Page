@@ -13,6 +13,8 @@ const Nav = () => {
   };
 
   useEffect(() => {
+    // Show/hide Navbar
+
     const menu = document.querySelector(".nav__menu");
     const menuBtn = document.querySelector("#open-menu-btn");
     const closeBtn = document.querySelector("#close-menu-btn");
@@ -91,14 +93,11 @@ const Nav = () => {
           </li>
           <li>
             <div className="search">
-              {" "}
               <input type="text" placeholder="Search" />
               <AiOutlineSearch className="search__icon" />
-            </div>{" "}
-            <input type="range" />
+            </div>
           </li>
         </ul>
-
         <button id="open-menu-btn" onClick={toggleNavMenu}>
           <AiOutlineBars className="open__menu" />
         </button>
