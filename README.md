@@ -12,7 +12,6 @@ Also, the page has a responsive design. This allows users to view the page comfo
 <hr />
 <h2>🍿 Features </h2>
 <ul>   
-   <li>Light/Dark Mode</li>
    <li>Responsive</li>
 </ul><hr />
 <h2>🍿 Technologies </h2>
@@ -37,4 +36,3 @@ npm start
 <hr />
 <h2>🍿 Demo </h2>
 <p> - Check out our live demo at https://modern-blog-page.netlify.app/ </p>
-
