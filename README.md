@@ -18,7 +18,7 @@ Also, the page has a responsive design. This allows users to view the page comfo
 <h2>🍿 Technologies </h2>
 <ul>
    <li>ReactJs</li>
-   <li>CSS3</li>     
+   <li>CSS</li>     
 </ul>
 <hr />
 <h2>🍿 How to Run the Website on Your System </h2>
