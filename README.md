@@ -29,7 +29,7 @@ Also, the page has a responsive design. This allows users to view the page comfo
 </h3>
 <p>Open your code editor (such as VS Code) and navigate to the project directory. Then, open a terminal and run the following command:
 pnpm run dev</p>
-<p>This will start the application. Open a web browser and navigate to http://localhost:300 to access the website.</p>
+<p>This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.</p>
 
 ```bash
 npm start
